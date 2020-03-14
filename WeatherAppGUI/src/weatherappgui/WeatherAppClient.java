@@ -160,7 +160,8 @@ public class WeatherAppClient extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        System.exit(0);
+        dispose();
+        WeatherClientLogin.main(new String[0]);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

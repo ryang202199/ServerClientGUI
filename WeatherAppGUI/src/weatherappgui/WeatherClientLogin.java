@@ -121,6 +121,7 @@ public class WeatherClientLogin extends javax.swing.JFrame {
             if (userName.equals(userNameLine) && password.equals(passwordLine)) {
                 System.out.println("Account details match");
                 WeatherAppClient.main(new String[0]);
+                dispose();
             }
             else {
                 System.out.println("Account details don't match");
